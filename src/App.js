@@ -1,18 +1,17 @@
+import Item from "./components/item";
+import Card from "./components/Card"
+
 const App = () =>{
   return ( 
     <>
   <h1>Minha aplicação com React</h1>
  <ul>
 
-   <a href="/" className="list-group-item list-group-item-action list-group-item-dark">Item 1</a>
-
-   <li>
-     item 2
-   </li>
-   <li>
-     item 3
-   </li>
+ <Item > Item1</Item>
+ <Item > Item2</Item>
+ <Item > Item3</Item>
  </ul>
+ <Card/>
   </>
   )
   
